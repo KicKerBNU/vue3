@@ -12,7 +12,14 @@ const routes = [
     name: "Exemplo01-Vue2",
     
     component: () =>
-      import(/* webpackChunkName: "about" */ "../views/Exemplo01-Vue2.vue")
+      import("../views/Exemplo01-Vue2.vue")
+  },
+  {
+    path: "/exemplo1-v3",
+    name: "Exemplo01-Vue3",
+    
+    component: () =>
+      import("../views/Exemplo01-Vue3.vue")
   }
 ];
 
