@@ -1,4 +1,5 @@
 <template>
+  <h1>Vue 3</h1>
   <h1>Capacidade: {{capacidade}}</h1>
 </template>
 

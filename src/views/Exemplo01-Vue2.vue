@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <h1>Este é um exemplo da construção de um componente no Vue2</h1>
+    <h1>Vue 2</h1>
     <h1>Capacidade: {{capacidade}}</h1>
   </div>
 </template>
